@@ -1,29 +1,29 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "meepstorage",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Meep's Storage Mod",
+	"description": "This mod adds more efficient ways of storing your items!",
 	"authors": [
-		"Me!"
+		"YUniversalGamer/MeepusTheepus"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "",
+		"sources": "https://github.com/YUniversalGamer/Meeps-Storage-Mod"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"license": "CC BY-NC-SA 4.0 ",
+	"icon": "assets/meepstorage/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"meepustheepus.meeps.storage.mod"
 		],
 		"client": [
 			"com.example.ExampleModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"meepstorage.mixins.json",
 		{
 			"config": "modid.client.mixins.json",
 			"environment": "client"
