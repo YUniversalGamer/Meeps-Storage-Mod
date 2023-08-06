@@ -23,7 +23,7 @@
 		]
 	},
 	"mixins": [
-		"meepustheepus.mixins.json",
+		"meepstorage.mixins.json",
 		{
 			"config": "modid.client.mixins.json",
 			"environment": "client"
