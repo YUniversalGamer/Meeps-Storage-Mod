@@ -16,14 +16,14 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"meepustheepus.meeps.storage.mod"
+			"meepustheepus.meeps.storage.MeepsStorage"
 		],
 		"client": [
 			"com.example.ExampleModClient"
 		]
 	},
 	"mixins": [
-		"meepstorage.mixins.json",
+		"meepustheepus.mixins.json",
 		{
 			"config": "modid.client.mixins.json",
 			"environment": "client"
